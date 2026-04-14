@@ -143,6 +143,25 @@ answers: [
   { label: "Kanchanpur", aliases: ["kanchanpur", "mahendranagar"] }
 ],
   },
+  {
+  id: "nepal-xi-t20-2014-hk",
+  title: "Nepal XI vs Hong Kong (T20 World Cup 2014)",
+  subtitle: "Name Nepal’s playing XI with their runs or wickets in that match",
+  emoji: "🏏",
+  answers: [
+    { label: "Subash Khakurel (22 runs)", aliases: ["subash khakurel", "khakurel"] },
+    { label: "Sagar Pun (13 runs, 0 Wickets)", aliases: ["sagar pun", "pun"] },
+    { label: "Gyanendra Malla (48 runs)", aliases: ["gyanendra malla", "malla"] },
+    { label: "Paras Khadka (41 runs, 1 Wicket)", aliases: ["paras khadka", "paras"] }, 
+    { label: "Binod Bhandari (1 run)", aliases: ["binod bhandari", "bhandari"] },
+    { label: "Sharad Vesawkar (14 runs)", aliases: ["sharad vesawkar", "vesawkar"] },
+    { label: "Basant Regmi (0 runs, 3 Wickets)", aliases: ["basant regmi", "regmi"] },
+    { label: "Naresh Bahadur Budayair (0 runs)", aliases: ["naresh bahadur budayair", "budayair","naresh budayair"] },
+    { label: "Shakti Gauchan (0 runs, 3 Wickets)", aliases: ["shakti gauchan", "gauchan"] },
+    { label: "Sompal Kami (2 Wickets)", aliases: ["sompal kami", "sompal"] },
+    { label: "Jitendra Mukhiya (1 Wicket)", aliases: ["jitendra mukhiya", "mukhiya"] },
+  ]
+},
 
   {
     id: "most-spoken-languages",
