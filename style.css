@@ -198,6 +198,29 @@ input  { font: inherit; color: inherit; }
   gap: 8px;
   margin-bottom: 24px;
 }
+.tiles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+
+/* Adaptive columns — driven by data-cols attribute set in ui.js */
+.tiles-container[data-cols="2"] { display: grid; grid-template-columns: repeat(2, 1fr); }
+.tiles-container[data-cols="3"] { display: grid; grid-template-columns: repeat(3, 1fr); }
+.tiles-container[data-cols="4"] { display: grid; grid-template-columns: repeat(4, 1fr); }
+
+/* Collapse on smaller screens */
+@media (max-width: 600px) {
+  .tiles-container[data-cols="3"],
+  .tiles-container[data-cols="4"] { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 400px) {
+  .tiles-container[data-cols="2"],
+  .tiles-container[data-cols="3"],
+  .tiles-container[data-cols="4"] { grid-template-columns: 1fr; }
+}
 
 .tile {
   display: flex;

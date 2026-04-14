@@ -82,7 +82,8 @@ function renderGameBoard(snapshot) {
 function renderTiles(snapshot) {
   const container = document.getElementById("tiles-container");
   const answers   = snapshot.quiz.answers;
-
+  const cols = Math.min(4, Math.ceil(answers.length / 15));
+  container.dataset.cols = cols;
   // Build or update tiles
   if (container.children.length !== answers.length) {
     container.innerHTML = "";

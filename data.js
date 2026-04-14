@@ -114,6 +114,35 @@ const QUIZZES = [
       { label: "Annapurna (8,091 m)",     aliases: ["annapurna"] },
     ],
   },
+  {
+    id: "terai-districts",
+    title: "Districts in terai region of Nepal",
+    subtitle: "Name all districts in terai region of Nepal from east to west",
+    emoji: "🌾",
+answers: [
+  { label: "Jhapa", aliases: ["jhapa"] },
+  { label: "Morang", aliases: ["morang"] },
+  { label: "Sunsari", aliases: ["sunsari"] },
+  { label: "Saptari", aliases: ["saptari"] },
+  { label: "Siraha", aliases: ["siraha"] },
+  { label: "Dhanusha", aliases: ["dhanusha", "janakpur"] },
+  { label: "Mahottari", aliases: ["mahottari"] },
+  { label: "Sarlahi", aliases: ["sarlahi"] },
+  { label: "Rautahat", aliases: ["rautahat"] },
+  { label: "Bara", aliases: ["bara"] },
+  { label: "Parsa", aliases: ["parsa", "birgunj"] },
+  { label: "Chitwan", aliases: ["chitwan"] },
+  { label: "Nawalparasi East", aliases: ["nawalparasi east", "parasi east", "nawalpur"] },
+  { label: "Nawalparasi West", aliases: ["nawalparasi west", "parasi west"] },
+  { label: "Rupandehi", aliases: ["rupandehi", "butwal", "bhairahawa"] },
+  { label: "Kapilbastu", aliases: ["kapilvastu","kapilbastu"] },
+  { label: "Dang", aliases: ["dang"] },
+  { label: "Banke", aliases: ["banke", "nepalgunj"] },
+  { label: "Bardiya", aliases: ["bardiya", "bardia"] },
+  { label: "Kailali", aliases: ["kailali", "dhangadhi"] },
+  { label: "Kanchanpur", aliases: ["kanchanpur", "mahendranagar"] }
+],
+  },
 
   {
     id: "most-spoken-languages",
@@ -152,25 +181,6 @@ const QUIZZES = [
       { label: "Algeria (2.4M km²)",    aliases: ["algeria"] },
     ],
   },
-{
-  id: "nepali-captains",
-  title: "Nepali Cricket Captains",
-  subtitle: "All Captains of Nepali National Cricket Team from 1996 to 2026",
-  emoji: "🏏",
-  answers: [
-    { label: "Uttam Karmacharya (1996)", aliases: ["karmacharya","uttam","uttam karmacharya"] },
-    { label: "LB Chhetri (1998)", aliases: ["lb chhetri","chhetri", "l b chhetri"] },
-    { label: "Pawan Agarwal (2000)", aliases: ["pawan","pawan agarwal","agarwal"] },
-    { label: "Ganesh Shahi Thakuri (2001)", aliases: ["ganesh shahi thakuri", "ganesh thakuri","thakuri"] },
-    { label: "Raju Khadka (2001–2004)", aliases: ["raju khadka"] },
-    { label: "Paresh Lohani (2004)", aliases: ["paresh lohani","lohani"] },
-    { label: "Binod Das (2005–2008)", aliases: ["binod das","das"] },
-    { label: "Paras Khadka (2009–2019)", aliases: ["paras khadka","paras","khadka"] },
-    { label: "Gyanendra Malla (2019–2021)", aliases: ["gyanendra malla"] },
-    { label: "Sandeep Lamichhane (2021–2022)", aliases: ["sandeep lamichhane","sandeep","lamichhane"] },
-    { label: "Rohit Kumar Paudel (2022–)", aliases: ["rohit kumar paudel", "rohit paudel","paudel"] },
-  ],
-}
 ];
 
 // ============================================================
