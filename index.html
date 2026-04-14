@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizzes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       HOME SCREEN — quiz selection
+       ═══════════════════════════════════════════════ -->
+  <section id="screen-home" class="screen">
+    <div class="container">
+      <header class="home-header">
+        <h1>Quizzes</h1>
+        <p>Type your guesses — see where they rank</p>
+      </header>
+      <div id="quiz-grid" class="quiz-grid">
+        <!-- Cards injected by ui.js -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       GAME SCREEN — active quiz
+       ═══════════════════════════════════════════════ -->
+  <section id="screen-game" class="screen">
+    <div class="container">
+
+      <!-- Header row -->
+  <header class="game-header">
+  <button id="back-btn" title="All quizzes">← Quizzes</button>
+  <span id="game-emoji"></span>
+        <div class="game-meta">
+          <h2 id="game-title"></h2>
+          <p  id="game-subtitle"></p>
+        </div>
+        <span id="timer">00:00</span>
+      </header>
+
+      <!-- Progress bar -->
+      <div class="progress-row">
+        <div class="progress-bar">
+          <div id="progress-bar-fill" class="progress-bar-fill"></div>
+        </div>
+        <span id="progress-text">0 / 10</span>
+        <span id="wrong-count" hidden></span>
+      </div>
+
+      <!-- Answer tiles (filled by ui.js) -->
+      <div id="tiles-container" class="tiles-container"></div>
+
+      <!-- Guess input -->
+      <div class="input-row">
+        <input
+          id="guess-input"
+          type="text"
+          placeholder="Type your guess and press Enter…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button id="guess-btn">Guess</button>
+      </div>
+
+      <!-- Give up -->
+      <button id="giveup-btn">Give up</button>
+
+      <!-- Guess history -->
+      <p class="guess-log-label">Your guesses</p>
+      <div id="guess-log"></div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       RESULT SCREEN — end of game
+       ═══════════════════════════════════════════════ -->
+  <section id="screen-result" class="screen">
+    <div class="container">
+      <div class="result-inner">
+        <span id="result-icon"></span>
+        <h2 id="result-heading"></h2>
+        <p  id="result-quiz-name"></p>
+
+        <div class="result-stats">
+          <div class="stat-row">Score: <span id="result-score"></span></div>
+          <div class="stat-row"><span id="result-wrong"></span></div>
+          <div class="stat-row" id="result-time" hidden></div>
+        </div>
+
+        <div class="result-actions">
+          <button id="result-replay-btn" class="btn-primary">Play again</button>
+          <button id="result-home-btn"   class="btn-secondary">All quizzes</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       Scripts — order matters
+       ═══════════════════════════════════════════════ -->
+  <script src="data.js"></script>   <!-- 1. quiz data  -->
+  <script src="game.js"></script>   <!-- 2. game logic -->
+  <script src="ui.js"></script>     <!-- 3. DOM layer  -->
+  <script src="main.js"></script>   <!-- 4. wiring     -->
+
+</body>
+</html>
