@@ -162,6 +162,21 @@ answers: [
       { label: "Urdu (~230M)",       aliases: ["urdu"] },
     ],
   },
+  {
+  id: "nepal-provinces-size-asc",
+  title: "Provinces of Nepal by size",
+  subtitle: "Name all 7 provinces of Nepal in ascending order (smallest to largest)",
+  emoji: "🗺️",
+  answers: [
+    { label: "Madhesh Province (9,661 km²)", aliases: ["madhesh", "province 2", "madhes"] },
+    { label: "Sudurpashchim Province (19,999.28 km²)", aliases: ["sudurpashchim", "far west", "province 7"] },
+    { label: "Bagmati Province (20,300 km²)", aliases: ["bagmati", "province 3"] },
+    { label: "Gandaki Province (21,504 km²)", aliases: ["gandaki", "province 4"] },
+    { label: "Lumbini Province (22,288 km²)", aliases: ["lumbini", "province 5"] },
+    { label: "Koshi Province (25,905 km²)", aliases: ["koshi", "province 1"] },
+    { label: "Karnali Province (27,984 km²)", aliases: ["karnali", "province 6"] }
+  ]
+},
 
   {
     id: "largest-countries",

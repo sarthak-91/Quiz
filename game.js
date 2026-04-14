@@ -106,9 +106,12 @@ function findMatches(text, answers) {
   const normalised = normalise(text);
   const matched = [];
   answers.forEach((answer, i) => {
-    const hits = answer.aliases.some((alias) =>
-      normalise(alias).includes(normalised) || normalised.includes(normalise(alias))
-    );
+    const hits = answer.aliases.some((alias) => {
+      const normAlias = normalise(alias);
+      const aliasContainsGuess = normAlias.includes(normalised);
+      const guessContainsAlias = new RegExp(`\\b${normAlias}\\b`).test(normalised);
+      return aliasContainsGuess || guessContainsAlias;
+    });
     if (hits) matched.push(i);
   });
   return matched;
