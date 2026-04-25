@@ -149,17 +149,17 @@ answers: [
   subtitle: "Name Nepal’s playing XI with their runs or wickets in that match",
   emoji: "🏏",
   answers: [
-    { label: "Subash Khakurel (22 runs)", aliases: ["subash khakurel", "khakurel"] },
-    { label: "Sagar Pun (13 runs, 0 Wickets)", aliases: ["sagar pun", "pun"] },
-    { label: "Gyanendra Malla (48 runs)", aliases: ["gyanendra malla", "malla"] },
-    { label: "Paras Khadka (41 runs, 1 Wicket)", aliases: ["paras khadka", "paras"] }, 
-    { label: "Binod Bhandari (1 run)", aliases: ["binod bhandari", "bhandari"] },
-    { label: "Sharad Vesawkar (14 runs)", aliases: ["sharad vesawkar", "vesawkar"] },
-    { label: "Basant Regmi (0 runs, 3 Wickets)", aliases: ["basant regmi", "regmi"] },
-    { label: "Naresh Bahadur Budayair (0 runs)", aliases: ["naresh bahadur budayair", "budayair","naresh budayair"] },
-    { label: "Shakti Gauchan (0 runs, 3 Wickets)", aliases: ["shakti gauchan", "gauchan"] },
-    { label: "Sompal Kami (2 Wickets)", aliases: ["sompal kami", "sompal"] },
-    { label: "Jitendra Mukhiya (1 Wicket)", aliases: ["jitendra mukhiya", "mukhiya"] },
+    { label: "Subash Khakurel (22 runs)", aliases: ["subash khakurel", "khakurel"],hint:"22 runs" },
+    { label: "Sagar Pun (13 runs, 0 Wickets)", aliases: ["sagar pun", "pun"],hint:"13 runs, 0 Wickets" },
+    { label: "Gyanendra Malla (48 runs)", aliases: ["gyanendra malla", "malla"],hint:"48 runs" },
+    { label: "Paras Khadka (41 runs, 1 Wicket)", aliases: ["paras khadka", "paras"],hint:"41 runs, 1 Wicket" }, 
+    { label: "Binod Bhandari (1 run)", aliases: ["binod bhandari", "bhandari"],hint:"1 run" },
+    { label: "Sharad Vesawkar (14 runs)", aliases: ["sharad vesawkar", "vesawkar"],hint:"14 runs" },
+    { label: "Basant Regmi (0 runs, 3 Wickets)", aliases: ["basant regmi", "regmi"],hint:"0 runs, 3 Wickets" },
+    { label: "Naresh Bahadur Budayair (0 runs)", aliases: ["naresh bahadur budayair", "budayair","naresh budayair"],hint:"0 runs" },
+    { label: "Shakti Gauchan (0 runs, 3 Wickets)", aliases: ["shakti gauchan", "gauchan"],hint:"0 runs, 3 Wickets" },
+    { label: "Sompal Kami (2 Wickets)", aliases: ["sompal kami", "sompal"],hint:"2 Wickets" },
+    { label: "Jitendra Mukhiya (1 Wicket)", aliases: ["jitendra mukhiya", "mukhiya"],hint:"1 Wicket" },
   ]
 },
 
@@ -197,6 +197,44 @@ answers: [
   ]
 },
 
+{
+  id: "largest-districts-nepal",
+  title: "Top 10 Largest Districts of Nepal",
+  subtitle: "Name the districts with their area (sq. km) and province",
+  emoji: "🗺️",
+  answers: [
+    { label: "Dolpa (7889 sq. km)", aliases: ["dolpa"], hint: "7889 sq. km, Karnali Province" },
+    { label: "Humla (5655 sq. km)", aliases: ["humla"], hint: "5655 sq. km, Karnali Province" },
+    { label: "Taplejung (3646 sq. km)", aliases: ["taplejung"], hint: "3646 sq. km, Koshi Province" },
+    { label: "Gorkha (3610 sq. km)", aliases: ["gorkha"], hint: "3610 sq. km, Gandaki Province" },
+    { label: "Mustang (3573 sq. km)", aliases: ["mustang"], hint: "3573 sq. km, Gandaki Province" },
+    { label: "Mugu (3535 sq. km)", aliases: ["mugu"], hint: "3535 sq. km, Karnali Province" },
+    { label: "Sankhuwasabha (3480 sq. km)", aliases: ["sankhuwasabha", "sankhuwasava"], hint: "3480 sq. km, Koshi Province" },
+    { label: "Bajhang (3422 sq. km)", aliases: ["bajhang"], hint: "3422 sq. km, Sudurpashchim Province" },
+    { label: "Solukhumbu (3312 sq. km)", aliases: ["solukhumbu", "solu khumbu"], hint: "3312 sq. km, Koshi Province" },
+    { label: "Kailali (3235 sq. km)", aliases: ["kailali", "kailai"], hint: "3235 sq. km, Sudurpashchim Province" }
+  ]
+},
+  {
+  id: "nepal-xi-first-odi",
+  title: "Nepal XI in First ODI",
+  subtitle: "Name Nepal’s playing XI with their runs and wickets",
+  emoji: "🏏",
+  answers: [
+    { label: "Gyanendra Malla (51 runs)", aliases: ["gyanendra malla", "malla"], hint: "51 runs" },
+    { label: "Anil Sah (21 runs)", aliases: ["anil sah", "sah"], hint: "21 runs" },
+    { label: "Paras Khadka (12 runs, 4 Wickets)", aliases: ["paras khadka", "paras"], hint: "12 runs, 4 Wickets" },
+    { label: "Dipendra Singh Airee (33 runs)", aliases: ["dipendra singh airee", "dipendra airee", "airee"], hint: "33 runs" },
+    { label: "Aarif Sheikh (0 runs)", aliases: ["aarif sheikh", "arif sheikh", "sheikh"], hint: "0 runs" },
+    { label: "Sompal Kami (0 runs, 3 Wickets)", aliases: ["sompal kami", "sompal"], hint: "0 runs, 3 Wickets" },
+    { label: "Basant Regmi (0 runs, 1 Wicket)", aliases: ["basant regmi", "regmi"], hint: "0 runs, 1 Wicket" },
+    { label: "Shakti Gauchan (9 runs, 0 Wickets)", aliases: ["shakti gauchan", "gauchan"], hint: "9 runs, 0 Wickets" },
+    { label: "Karan KC (0 runs, 1 Wicket)", aliases: ["karan kc", "karan kc", "karan"], hint: "0 runs, 1 Wicket" },
+    { label: "Sandeep Lamichhane (1 run, 1 Wicket)", aliases: ["sandeep lamichhane", "lamichhane", "sandeep"], hint: "1 run, 1 Wicket" },
+    { label: "Sharad Vesawkar (4 runs)", aliases: ["sharad vesawkar", "vesawkar"], hint: "4 runs" }
+  ]
+},
+
   {
     id: "largest-countries",
     title: "Top 10 Largest Countries",
@@ -215,6 +253,29 @@ answers: [
       { label: "Algeria (2.4M km²)",    aliases: ["algeria"] },
     ],
   },
+  {
+  id: "nepal-most-runs-odi-t20i",
+  title: "Nepal’s Top Run Scorers (ODI + T20I)",
+  subtitle: "Name Nepali players with the most combined international runs as of April 25,2026",
+  emoji: "🏏",
+  answers: [
+    { label: "1. Rohit Paudel, Runs: 3722", aliases: ["rohit paudel", "paudel"], hint: "Matches: 157, Runs: 3722" },
+    { label: "2. Dipendra Singh Airee, Runs: 3469", aliases: ["dipendra singh airee", "airee"], hint: "Matches: 165, Runs: 3469" },
+    { label: "3. Kushal Bhurtel, Runs: 3463", aliases: ["kushal bhurtel", "bhurtel"], hint: "Matches: 142, Runs: 3463" },
+    { label: "4. Aasif Sheikh, Runs: 3394", aliases: ["aasif sheikh", "asif sheikh"], hint: "Matches: 136, Runs: 3394" },
+    { label: "5. Aarif Sheikh, Runs: 2012", aliases: ["aarif sheikh", "arif sheikh"], hint: "Matches: 116, Runs: 2012" },
+    { label: "6. Kushal Malla, Runs: 1852", aliases: ["kushal malla", "malla"], hint: "Matches: 101, Runs: 1852" },
+    { label: "7. Gyanendra Malla, Runs: 1759", aliases: ["gyanendra malla", "malla"], hint: "Matches: 82, Runs: 1759" },
+    { label: "8. Gulsan Jha, Runs: 1395", aliases: ["gulsan jha", "jha"], hint: "Matches: 97, Runs: 1395" },
+    { label: "9. Sompal Kami, Runs: 1182", aliases: ["sompal kami", "sompal"], hint: "Matches: 155, Runs: 1182" },
+    { label: "10. Karan KC, Runs: 1139", aliases: ["karan kc", "karan"], hint: "Matches: 134, Runs: 1139" },
+    { label: "11. Paras Khadka, Runs: 1114", aliases: ["paras khadka", "paras"], hint: "Matches: 43, Runs: 1114" },
+    { label: "12. Bhim Sharki, Runs: 1034", aliases: ["bhim sharki", "sharki"], hint: "Matches: 39, Runs: 1034" },
+    { label: "13. Binod Bhandari, Runs: 680", aliases: ["binod bhandari", "bhandari"], hint:"Matches: 57, Runs: 680" },
+    { label: "14. Anil Sah, Runs: 672", aliases: ["anil sah", "sah"], hint:"Matches: 31, Runs: 621" },
+    
+  ]
+}
 ];
 
 // ============================================================

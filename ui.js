@@ -95,13 +95,17 @@ function renderTiles(snapshot) {
     });
   }
 
-  answers.forEach((answer, i) => {
+answers.forEach((answer, i) => {
     const tile = container.querySelector(`[data-index="${i}"]`);
     const isRevealed = snapshot.revealed.has(i);
     tile.className = "tile" + (isRevealed ? " revealed" : "");
+    
+    // Check if there is a hint, otherwise fallback to "?"
+    const hiddenText = answer.hint ? answer.hint : "?"; 
+    
     tile.innerHTML = `
       <span class="tile-rank">#${i + 1}</span>
-      <span class="tile-label">${isRevealed ? answer.label : "?"}</span>
+      <span class="tile-label">${isRevealed ? answer.label : hiddenText}</span>
     `;
   });
 }
