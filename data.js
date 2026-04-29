@@ -275,6 +275,36 @@ answers: [
     { label: "14. Anil Sah, Runs: 672", aliases: ["anil sah", "sah"], hint:"Matches: 31, Runs: 621" },
     
   ]
+},
+{
+  id: "winners-a-division-league",
+  title: "Winners of A Division League",
+  subtitle: "Name all the winners of A Division League from 2040 to 2079 BS",
+  emoji: "⚽",
+  answers: [
+    { label: "1. Church Boys United ", aliases: ["church boys united", "church boys"] , hint:"2079 BS"},
+    { label: "2. Machhindra Football Club", aliases: ["machhindra football club", "machhindra"] , hint:"2078 BS"},
+    { label: "3. Machhindra Football Club", aliases: ["machhindra football club", "machhindra"] , hint:"2076 BS"},
+    { label: "4. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2075 BS"},
+    { label: "5. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2070 BS"},
+    { label: "6. Three Star Club", aliases: ["three star club", "three star"] , hint:"2069 BS"},
+    { label: "7. Nepal Police FC", aliases: ["nepal police fc", "nepal police", "police"] , hint:"2068 BS"}, 
+    { label: "8. Nepal Police FC", aliases: ["nepal police fc", "nepal police", "police"] , hint:"2067 BS"}, 
+    { label: "9. Mahendra Police Club", aliases: ["mahendra police club", "mahendra police", "mahendra"] , hint:"2063 BS"},
+    { label: "10. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2062 BS"},
+    { label: "11. Three Star Club", aliases: ["three star club", "three star"] , hint:"2061 BS"},
+    { label: "12. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2060 BS"},
+    { label: "13. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2057 BS"},
+    { label: "14. Three Star Club", aliases: ["three star club", "three star"] , hint:"2055 BS"},
+    { label: "15. Three Star Club", aliases: ["three star club", "three star"] , hint:"2054 BS"},
+    { label: "16. New Road Team", aliases: ["new road team", "new road","nrt"] , hint:"2052 BS"},
+    { label: "17. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2046 BS"},
+    { label: "18. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2044 BS"},
+    { label: "19. Manang Marshyangdi Club", aliases: ["manang marshyangdi club", "manang marshyangdi", "manang"] , hint:"2043 BS"},
+    { label: "20. Sankata Boys Club", aliases: ["sankata boys club", "sankata boys", "sankata"] , hint:"2042 BS"},
+    { label: "21. Rani Pokhari Corner Team", aliases: ["rani pokhari corner team", "rani pokhari", "corner team","rpct"] , hint:"2041 BS"},
+    { label: "22. Sankata Boys Club", aliases: ["sankata boys club", "sankata boys", "sankata"] , hint:"2040 BS"},
+  ]
 }
 ];
 
